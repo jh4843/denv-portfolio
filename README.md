@@ -1,4 +1,4 @@
-# myNextJsProject
+# Jaehyeok's porfolio
 
 
 
