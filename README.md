@@ -14,6 +14,7 @@
 
 ## tailwindcss
   * [tailblocks.cc](https://tailblocks.cc/)
+  * Install visual studio code extension: Tailwind CSS IntelliSense
 
 ## Useful short-cut
   * ctrl + shift + l: 같은 단어 선택
