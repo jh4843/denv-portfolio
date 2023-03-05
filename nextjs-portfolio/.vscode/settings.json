@@ -1,4 +1,5 @@
 {
   "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
-  "files.autoSave": "onFocusChange"
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
