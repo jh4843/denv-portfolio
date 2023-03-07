@@ -16,7 +16,7 @@ h6 {
 }
 
 footer {
-  @apply text-gray-600 dark:text-white;
+  @apply text-gray-600 dark:text-white bg-gray-100 dark:bg-slate-600/20;
 }
 
 a {
@@ -25,4 +25,8 @@ a {
 
 p {
   @apply text-slate-500 dark:text-slate-400;
+}
+
+.btn-normal {
+  @apply inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg;
 }

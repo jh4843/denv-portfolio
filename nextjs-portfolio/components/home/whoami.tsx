@@ -19,9 +19,7 @@ export default function WhoAmI() {
         <p className="text-slate-300 mb-8 leading-relaxed">SW Developer</p>
         <div className="flex justify-center">
           <Link legacyBehavior href="/projects">
-            <a className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Go to my projects
-            </a>
+            <a className="btn-normal">Go to my projects</a>
           </Link>
         </div>
       </div>
