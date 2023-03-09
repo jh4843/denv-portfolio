@@ -50,8 +50,13 @@ interface iProjectsResult {
   url: string
 }
 
+interface iProjects {
+  object: string
+  results: Array<iProjectsResult>
+}
+
 // Client (in Borwser)
-export default function Projects({ projects }) {
+export default function Projects({ projects }: { projects: iProjects }) {
   const resultProjects: iProjectsResult[] = projects.results
 
   const projectTitles = resultProjects.map((aProject: iProjectsResult) => {
@@ -116,7 +121,7 @@ export async function getStaticProps() {
   // .then((response) => console.log(response))
   // .catch((err) => console.error(err))
 
-  const projects = await res.json()
+  const projects: iProjects = await res.json()
 
   console.log(projects)
 
