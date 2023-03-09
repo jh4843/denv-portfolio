@@ -54,10 +54,6 @@ interface iProjectsResult {
 export default function Projects({ projects }) {
   const resultProjects: iProjectsResult[] = projects.results
 
-  const projectIds = resultProjects.map(
-    (aProject: iProjectsResult) => aProject.id,
-  )
-
   const projectTitles = resultProjects.map((aProject: iProjectsResult) => {
     if (
       aProject.properties?.Name.title == undefined ||
