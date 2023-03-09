@@ -29,9 +29,9 @@ interface iProjectsResultPropertiesName {
 }
 
 interface iProjectsResultProperties {
-  Description: object
-  Tags: object
-  Github: object
+  // Description: object
+  // Tags: object
+  // Github: object
   Name: iProjectsResultPropertiesName
 }
 
@@ -40,11 +40,11 @@ interface iProjectsResult {
   id: string
   created_time: string
   last_edited_time: string
-  created_by: Array<Object>
-  last_edited_by: Array<Object>
-  cover: null | Array<Object>
-  icon: null | Array<Object>
-  parent: null | Array<Object>
+  // created_by: Array<Object>
+  // last_edited_by: Array<Object>
+  // cover: null | Array<Object>
+  // icon: null | Array<Object>
+  // parent: null | Array<Object>
   archived: boolean
   properties: null | iProjectsResultProperties
   url: string
@@ -81,8 +81,8 @@ export default function Projects({ projects }) {
         </Head>
         <h1>총 프로젝트: {projectTitles.length}</h1>
 
-        {projects.results.map((aProject) => (
-          <h1>{aProject.properties?.Name.title[0].plain_text}</h1>
+        {projects.results.map((aProject: iProjectsResult, index: number) => (
+          <h1 key={index}>{aProject.properties?.Name.title[0].plain_text}</h1>
         ))}
       </Layout>
     </>
