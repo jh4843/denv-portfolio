@@ -23,6 +23,10 @@
 - [next themes git](https://github.com/pacocoursey/next-themes)
   - npm install next-themes
 
+## notion
+
+- [notion api doc](https://developers.notion.com/)
+
 ## Useful short-cut
 
 - ctrl + shift + l: 같은 단어 선택
