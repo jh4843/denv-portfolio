@@ -37,7 +37,7 @@ export default function ProjectItem({
       <div className="flex flex-col p-4">
         <h1 className="text-xl font-semibold">Title: {title}</h1>
         <h5>Desc: {desc}</h5>
-        <div className="flex items-start mt-2">
+        <div className="flex flex-wrap items-start mt-2">
           {tags?.multi_select?.map(
             (aTag: MyType.iProjectsResultPropertiesTagMultiSel) => (
               <h5
