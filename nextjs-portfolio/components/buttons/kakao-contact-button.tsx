@@ -1,9 +1,9 @@
-import Link from 'next/link'
+import Link from "next/link"
 
 export default function KakaoToggleButton() {
   return (
     <>
-      <Link legacyBehavior href={'https://open.kakao.com/o/sZIIYg8e'}>
+      <Link legacyBehavior href={"https://open.kakao.com/o/sZIIYg8e"}>
         <button
           className="inline-flex items-center 
           mr-2

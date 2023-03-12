@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link"
 
 export default function Footer() {
   return (
@@ -23,7 +23,7 @@ export default function Footer() {
               </a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-              <Link legacyBehavior href={'https://open.kakao.com/o/sZIIYg8e'}>
+              <Link legacyBehavior href={"https://open.kakao.com/o/sZIIYg8e"}>
                 <a className="ml-3 text-gray-500">
                   <svg
                     fill="currentColor"
@@ -40,7 +40,7 @@ export default function Footer() {
               </Link>
               <Link
                 legacyBehavior
-                href={'https://www.instagram.com/jaehyeok3121/'}
+                href={"https://www.instagram.com/jaehyeok3121/"}
               >
                 <a className="ml-3 text-gray-500">
                   <svg
@@ -58,7 +58,7 @@ export default function Footer() {
               </Link>
               <Link
                 legacyBehavior
-                href={'https://www.linkedin.com/in/jaehyeok-kim-558989113/'}
+                href={"https://www.linkedin.com/in/jaehyeok-kim-558989113/"}
               >
                 <a className="ml-3 text-gray-500">
                   <svg

@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import DarkModeToggleButton from './buttons/dark-mode-toggle-button'
-import KakaoToggleButton from './buttons/kakao-contact-button'
+import Link from "next/link"
+import DarkModeToggleButton from "./buttons/dark-mode-toggle-button"
+import KakaoToggleButton from "./buttons/kakao-contact-button"
 
 export default function Header() {
   return (
@@ -33,7 +33,7 @@ export default function Header() {
               <a className="mr-5 hover:text-gray-900">Projects</a>
             </Link>
             <a className="mr-5 hover:text-gray-900">Blog</a>
-            <Link legacyBehavior href={'https://github.com/jh4843'}>
+            <Link legacyBehavior href={"https://github.com/jh4843"}>
               <a className="mr-5 hover:text-gray-900">Github</a>
             </Link>
           </nav>

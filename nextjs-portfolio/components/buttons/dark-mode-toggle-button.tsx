@@ -1,4 +1,4 @@
-import { useTheme } from 'next-themes'
+import { useTheme } from "next-themes"
 
 export default function DarkModeToggleButton() {
   // {getter} theme: 현재값,
@@ -19,7 +19,7 @@ export default function DarkModeToggleButton() {
         dark:hover:text-yellow-300
         "
         type="button"
-        onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >
         {/* Dark Mode */}
         <svg

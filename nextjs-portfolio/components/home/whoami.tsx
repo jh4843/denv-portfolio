@@ -1,5 +1,5 @@
-import LottieAnimation from '@/components/lottie-animation'
-import Link from 'next/link'
+import LottieAnimation from "@/components/lottie-animation"
+import Link from "next/link"
 
 export default function WhoAmI() {
   return (

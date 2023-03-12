@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import WhoAmI from '@/components/home/whoami'
-import Layout from '@/components/layout'
+import Head from "next/head"
+import WhoAmI from "@/components/home/whoami"
+import Layout from "@/components/layout"
 
 export default function Home() {
   return (
