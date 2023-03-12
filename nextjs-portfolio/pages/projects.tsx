@@ -40,7 +40,8 @@ export default function Projects({ projects }: { projects: MyType.iProjects }) {
 
         <div className="grid grid-cols-1 gap-2 md:grid-cols-3 sm:grid-cols-2 w-full">
           {projects.results.map(
-            (aProject: MyType.iProjectsResult, index: number) => (
+            // (aProject: MyType.iProjectsResult, index: number) => (
+            (aProject: MyType.iProjectsResult) => (
               //<h1 key={index}>{aProject.properties?.Name.title[0].plain_text}</h1>
               <ProjectItem key={aProject.id} data={aProject}></ProjectItem>
             ),

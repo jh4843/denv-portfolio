@@ -19,7 +19,7 @@
       "@/*": ["./*"]
     }
   },
-  "include": [, "components/projects/project-item.jsx"
+  "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",

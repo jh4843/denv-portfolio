@@ -1,4 +1,3 @@
-import Link from "next/link"
 import Image from "next/image"
 import * as MyType from "@/types"
 
@@ -24,7 +23,7 @@ export default function ProjectItem({
 
   return (
     //<div className="flex flex-col m-3  bg-zinc-200 dark:bg-slate-700 rounded-md content-center items-center">
-    <div className="max-h-90 m-3  bg-zinc-200 dark:bg-slate-700 rounded-md content-center items-center">
+    <div className="position:absolute max-h-90 m-3 bg-zinc-200 dark:bg-slate-700 rounded-md content-center items-center">
       <Image
         className="rounded-t-md w-full h-2/3"
         src={imgSrc}
@@ -50,8 +49,7 @@ export default function ProjectItem({
             ),
           )}
         </div>
-        <br></br>
-        <a href="{gitHubLink}">Github Link</a>
+        <a href={gitHubLink}>Github Link</a>
       </div>
     </div>
   )
