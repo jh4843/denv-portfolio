@@ -21,6 +21,8 @@ export default function ProjectItem({
 
   if (imgSrc == undefined) imgSrc = ""
 
+  console.log(imgSrc)
+
   return (
     //<div className="flex flex-col m-3  bg-zinc-200 dark:bg-slate-700 rounded-md content-center items-center">
     <div className="position:absolute max-h-90 m-3 bg-zinc-200 dark:bg-slate-700 rounded-md content-center items-center">
