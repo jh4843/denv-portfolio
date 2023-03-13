@@ -37,15 +37,17 @@ export default function Header() {
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link legacyBehavior href="/">
-              <a className="mr-5 hover:text-gray-900">Home</a>
+              <a className="mr-5 ">Home</a>
             </Link>
-            <a className="mr-5 hover:text-gray-900">About me</a>
+            <Link legacyBehavior href="/about-me">
+              <a className="mr-5 ">About me</a>
+            </Link>
             <Link legacyBehavior href="/projects">
-              <a className="mr-5 hover:text-gray-900">Projects</a>
+              <a className="mr-5 ">Projects</a>
             </Link>
-            <a className="mr-5 hover:text-gray-900">Blog</a>
+            {/* <a className="mr-5 ">Blog</a> */}
             <Link legacyBehavior href={"https://github.com/jh4843"}>
-              <a className="mr-5 hover:text-gray-900">Github</a>
+              <a className="mr-5 ">Github</a>
             </Link>
           </nav>
           {/* <Link href={'https://open.kakao.com/o/sZIIYg8e'}>

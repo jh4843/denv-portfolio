@@ -9,14 +9,18 @@ export default function WhoAmI() {
           Who is Jaehyeok?
           <br className="hidden lg:inline-block" />
         </h1>
-        <p className="text-slate-600 mb-8 leading-relaxed">
+        <p className="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
           1988. 02. 14. (35 Years old)
         </p>
-        <p className="text-slate-500 mb-8 leading-relaxed">
+        <p className="text-slate-500 dark:text-slate-500 mb-8 leading-relaxed">
           Strict father of 2 sons
         </p>
-        <p className="text-slate-400 mb-8 leading-relaxed">Weak husband</p>
-        <p className="text-slate-300 mb-8 leading-relaxed">SW Developer</p>
+        <p className="text-slate-400 dark:text-slate-600 mb-8 leading-relaxed">
+          Weak husband
+        </p>
+        <p className="text-slate-300 dark:text-slate-700 mb-8 leading-relaxed">
+          SW Developer
+        </p>
         <div className="flex justify-center">
           <Link legacyBehavior href="/projects">
             <a className="btn-normal">Go to my projects</a>

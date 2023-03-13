@@ -20,7 +20,7 @@ footer {
 }
 
 a {
-  @apply text-gray-500 hover:text-slate-700 dark:text-slate-400;
+  @apply text-gray-500 hover:text-slate-700 dark:text-slate-400 hover:dark:text-white;
 }
 
 p {
