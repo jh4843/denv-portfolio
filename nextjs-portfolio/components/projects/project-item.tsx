@@ -21,19 +21,23 @@ export default function ProjectItem({
 
   if (imgSrc == undefined) imgSrc = ""
 
+  console.log(imgSrc)
+
   return (
     //<div className="flex flex-col m-3  bg-zinc-200 dark:bg-slate-700 rounded-md content-center items-center">
     <div className="position:absolute max-h-90 m-3 bg-zinc-200 dark:bg-slate-700 rounded-md content-center items-center">
-      <Image
-        className="rounded-t-md w-full h-2/3"
-        src={imgSrc}
-        alt="{title} image"
-        width={200}
-        height={100}
-        sizes="10vw"
-        //fill
-        quality={100}
-      />
+      <div className="rounded-t-md w-full h-2/3">
+        <Image
+          className="rounded-t-md w-full h-full"
+          src={imgSrc}
+          alt="{title} image"
+          width={200}
+          height={100}
+          sizes="20vw"
+          //fill
+          quality={100}
+        />
+      </div>
       <div className="flex flex-col p-4">
         <h1 className="text-xl font-semibold">Title: {title}</h1>
         <h5>Desc: {desc}</h5>
