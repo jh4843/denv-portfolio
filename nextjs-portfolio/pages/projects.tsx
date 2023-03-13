@@ -85,8 +85,6 @@ export async function getStaticProps() {
 
   const projects: MyType.iProjects = await res.json()
 
-  console.log(projects)
-
   const resultProjects: MyType.iProjectsResult[] = projects.results
 
   const projectIds = resultProjects.map(
