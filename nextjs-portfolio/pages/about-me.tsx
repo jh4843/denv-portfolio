@@ -15,128 +15,148 @@ export default function AboutMe() {
           <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
             <Image
               alt="feature"
-              className="object-cover object-center h-full w-full"
               width={1200}
               height={800}
-              src="https://dummyimage.com/460x500"
+              src="/Jaehyeok.png"
             />
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
             <div className="flex flex-col mb-10 lg:items-start items-center">
-              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+              <div className="w-24 h-10 inline-flex items-center justify-center rounded-md bg-indigo-100 text-indigo-500 mb-5">
                 <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   stroke-width="2"
-                  className="w-6 h-6"
-                  viewBox="0 0 24 24"
+                  className="740 172"
+                  viewBox="0 0 740 172"
                 >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  <g
+                    transform="translate(0.000000,172.000000) scale(0.100000,-0.100000)"
+                    fill="blue"
+                    stroke="none"
+                  >
+                    <path
+                      d="M470 1710 c-197 -28 -349 -131 -423 -287 -30 -65 -32 -74 -32 -188 0
+-111 2 -124 28 -177 51 -103 177 -198 354 -264 275 -103 407 -224 406 -369 -1
+-114 -64 -209 -172 -259 -37 -17 -65 -21 -146 -21 -89 0 -106 3 -156 28 -58
+28 -126 86 -170 147 l-26 34 -61 -39 c-34 -22 -62 -44 -62 -50 0 -5 33 -41 72
+-80 130 -125 262 -175 468 -175 184 0 302 37 416 132 111 92 164 198 172 344
+8 158 -41 269 -153 352 -67 49 -196 117 -310 162 -257 102 -337 178 -336 320
+0 170 131 280 319 268 129 -9 223 -67 284 -175 17 -29 33 -53 36 -53 3 0 30
+14 58 32 l53 31 -21 41 c-31 61 -124 147 -199 183 -109 54 -278 81 -399 63z"
+                    />
+                    <path
+                      d="M6745 1714 c-221 -29 -368 -120 -444 -275 -53 -110 -61 -268 -19
+-366 50 -116 167 -206 358 -278 196 -73 344 -176 390 -271 18 -36 21 -58 18
+-112 -5 -79 -28 -132 -81 -185 -64 -64 -115 -82 -232 -82 -93 0 -105 2 -166
+32 -62 31 -131 93 -170 152 l-15 25 -62 -38 c-34 -21 -62 -42 -62 -47 0 -20
+66 -92 125 -136 119 -90 231 -123 415 -123 136 0 214 16 309 65 187 94 295
+280 277 477 -10 110 -39 173 -115 248 -75 74 -156 120 -357 203 -171 71 -263
+130 -301 194 -24 41 -28 59 -28 118 1 85 24 143 81 198 89 86 248 102 378 38
+69 -34 124 -88 154 -153 9 -20 21 -38 26 -38 17 0 106 62 106 75 0 18 -52 86
+-102 135 -51 49 -181 114 -258 129 -67 12 -184 20 -225 15z"
+                    />
+                    <path
+                      d="M1410 865 l0 -815 555 0 556 0 -3 58 -3 57 -388 3 -387 2 2 333 3
+332 358 3 357 2 0 60 0 60 -360 0 -360 0 2 298 3 297 388 3 387 2 0 60 0 60
+-555 0 -555 0 0 -815z"
+                    />
+                    <path
+                      d="M2830 865 l0 -815 75 0 75 0 2 651 3 650 186 -308 c102 -169 241
+-401 310 -515 68 -114 126 -207 129 -208 3 0 83 136 179 303 330 573 415 717
+423 717 4 0 8 -290 8 -645 l0 -645 160 0 160 0 0 815 0 815 -177 -2 -177 -3
+-242 -410 c-133 -225 -245 -410 -250 -410 -7 0 -307 500 -408 682 -19 34 -46
+80 -61 102 l-25 41 -185 0 -185 0 0 -815z"
+                    />
+                    <path
+                      d="M4930 865 l0 -815 550 0 550 0 0 60 0 60 -385 0 -385 0 0 335 0 335
+360 0 360 0 0 60 0 60 -360 0 -360 0 0 300 0 300 385 0 385 0 0 60 0 60 -550
+0 -550 0 0 -815z"
+                    />
+                  </g>
                 </svg>
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  Shooting Stars
+                  SEMES
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                  2012. 01 ~ 2017. 06<br></br>
+                  Photo 제어 SW Team<br></br>
                 </p>
-                <a className="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
               </div>
             </div>
+            <br></br>
+            <br></br>
             <div className="flex flex-col mb-10 lg:items-start items-center">
-              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+              <div className="w-28 h-10 inline-flex items-center justify-center rounded-md bg-indigo-100 text-indigo-500 mb-5">
                 <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   stroke-width="2"
-                  className="w-6 h-6"
-                  viewBox="0 0 24 24"
+                  className="250 30"
+                  viewBox="0 0 250 30"
                 >
-                  <circle cx="6" cy="6" r="3"></circle>
-                  <circle cx="6" cy="18" r="3"></circle>
-                  <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  <g
+                    transform="translate(0.000000,30.000000) scale(0.100000,-0.100000)"
+                    fill="red"
+                    stroke="none"
+                  >
+                    <path
+                      d="M10 293 c0 -4 33 -72 73 -150 l72 -144 35 3 c34 3 37 6 107 143 40
+77 72 143 73 148 0 4 -14 7 -30 7 -28 0 -33 -7 -87 -115 -32 -63 -60 -115 -63
+-115 -3 0 -31 52 -63 115 -54 108 -59 115 -87 115 -16 0 -30 -3 -30 -7z"
+                    />
+                    <path d="M410 150 l0 -150 30 0 30 0 0 150 0 150 -30 0 -30 0 0 -150z" />
+                    <path
+                      d="M542 284 c-21 -14 -22 -23 -22 -134 0 -153 -4 -150 172 -150 l128 0
+0 30 0 30 -120 0 -120 0 0 90 0 90 90 0 90 0 0 -30 c0 -30 -1 -30 -55 -30 -54
+0 -55 0 -55 -30 l0 -30 85 0 85 0 0 74 c0 100 -8 106 -150 106 -79 0 -111 -4
+-128 -16z"
+                    />
+                    <path
+                      d="M841 292 c116 -299 113 -293 139 -290 21 3 30 18 66 108 l42 105 20
+-45 c10 -25 30 -73 43 -108 21 -56 27 -62 49 -60 21 3 31 20 82 148 53 135 55
+145 37 148 -36 6 -46 -5 -80 -97 -19 -50 -36 -91 -39 -91 -3 0 -21 42 -41 93
+-36 90 -37 92 -70 92 -32 0 -34 -2 -68 -92 -20 -51 -38 -93 -41 -93 -3 0 -21
+42 -41 93 -35 88 -38 92 -69 95 -18 2 -31 -1 -29 -6z"
+                    />
+                    <path
+                      d="M1382 284 c-21 -14 -22 -23 -22 -134 0 -154 -4 -150 146 -150 153 0
+154 1 154 150 0 148 -2 150 -148 150 -81 0 -113 -4 -130 -16z m218 -134 l0
+-91 -92 3 -93 3 -3 74 c-2 41 -1 80 2 88 4 9 29 13 96 13 l90 0 0 -90z"
+                    />
+                    <path
+                      d="M1722 284 c-21 -14 -22 -22 -22 -150 l0 -134 30 0 30 0 0 120 0 120
+75 0 75 0 0 30 0 30 -83 0 c-59 0 -89 -5 -105 -16z"
+                    />
+                    <path
+                      d="M1950 151 l0 -151 30 0 30 0 0 60 c0 44 4 60 14 60 7 0 34 -27 60
+-60 41 -53 52 -60 82 -60 19 0 34 2 34 6 0 3 -25 36 -56 75 l-56 69 56 69 c31
+39 56 72 56 75 0 4 -15 6 -34 6 -30 0 -41 -7 -82 -60 -26 -33 -53 -60 -60 -60
+-9 0 -14 18 -16 58 -3 54 -4 57 -30 60 l-28 3 0 -150z"
+                    />
+                    <path
+                      d="M2250 280 c-25 -25 -27 -105 -4 -138 14 -20 23 -22 105 -22 l89 0 0
+-30 0 -30 -100 0 -100 0 0 -30 0 -30 110 0 c134 0 150 10 150 90 0 76 -19 90
+-125 90 l-85 0 0 30 0 30 100 0 100 0 0 30 0 30 -110 0 c-97 0 -112 -2 -130
+-20z"
+                    />
+                  </g>
                 </svg>
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  The Catalyzer
+                  VIEWORKS
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                  2017. 07 ~ Working<br></br>
+                  RSW 개발팀<br></br>
                 </p>
-                <a className="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div className="flex flex-col mb-10 lg:items-start items-center">
-              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  stroke-width="2"
-                  className="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-              </div>
-              <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  Neptune
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
-                </p>
-                <a className="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
