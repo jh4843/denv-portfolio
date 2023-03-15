@@ -2,6 +2,9 @@ import Image from "next/image"
 import Head from "next/head"
 import Layout from "@/components/layout"
 
+const curYear = new Date().getFullYear()
+const myAge = curYear - 1988
+
 export default function AboutMe() {
   return (
     <>
@@ -21,6 +24,20 @@ export default function AboutMe() {
             />
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+            <div className="flex flex-col mb-10 lg:items-start items-center">
+              <div className="flex-grow">
+                <h1 className="text-gray-900 text-2xl title-font mb-3">
+                  김재혁 (JAEHYEOK KIM)
+                </h1>
+                <p className="leading-relaxed text-base">
+                  1988. 02. ({myAge}살)<br></br>
+                  거주지: 경기도 평택<br></br>
+                  기혼 - 여우같은 곰 & 2子 - 악당같은 악당<br></br>
+                  군필(병장 전역)<br></br>
+                </p>
+              </div>
+            </div>
+            <br></br>
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="w-24 h-10 inline-flex items-center justify-center rounded-md bg-indigo-100 text-indigo-500 mb-5">
                 <svg
@@ -88,7 +105,6 @@ export default function AboutMe() {
                 </p>
               </div>
             </div>
-            <br></br>
             <br></br>
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="w-28 h-10 inline-flex items-center justify-center rounded-md bg-indigo-100 text-indigo-500 mb-5">
