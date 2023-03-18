@@ -3,4 +3,6 @@ module.exports = {
   singleQuote: false,
   trailingComma: "all",
   tabWidth: 2,
+
+  plugins: [require("prettier-plugin-tailwindcss")],
 }
