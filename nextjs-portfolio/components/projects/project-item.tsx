@@ -25,10 +25,10 @@ export default function ProjectItem({
 
   return (
     //<div className="flex flex-col m-3  bg-zinc-200 dark:bg-slate-700 rounded-md content-center items-center">
-    <div className="position:absolute overflow-auto max-h-90 m-3 bg-zinc-200 dark:bg-slate-700 rounded-md content-center items-center transition duration-300 transform border border-gray-300 hover:scale-110 hover:shadow-lg  dark:border-gray-200/50">
-      <div className="rounded-t-md w-full h-2/3">
+    <div className="position:absolute max-h-70 m-3 transform content-center items-center overflow-auto rounded-md border border-gray-300 bg-zinc-200 transition duration-300 hover:scale-110 hover:shadow-lg dark:border-gray-200/50  dark:bg-slate-700">
+      <div className="h-2/3 w-full rounded-t-md">
         <Image
-          className="rounded-t-md w-full h-full"
+          className="h-full w-full rounded-t-md"
           src={imgSrc}
           alt="{title} image"
           width={200}
@@ -41,12 +41,12 @@ export default function ProjectItem({
       <div className="flex flex-col p-4">
         <h1 className="text-xl font-semibold">Title: {title}</h1>
         <h5>Desc: {desc}</h5>
-        <div className="flex flex-wrap items-start mt-2">
+        <div className="mt-2 flex flex-wrap items-start">
           {tags?.multi_select?.map(
             (aTag: MyType.iProjectsResultPropertiesTagMultiSel) => (
               <h5
                 key={aTag.id}
-                className="w-30 text-center px-2 py-1 mr-2 rounded-md bg-pink-100 dark:bg-blue-600 hover:font-bold cursor-pointer"
+                className="w-30 mr-2 cursor-pointer rounded-md bg-pink-100 px-2 py-1 text-center hover:font-bold dark:bg-blue-600"
               >
                 {aTag.name}
               </h5>
