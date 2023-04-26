@@ -38,7 +38,7 @@ export default function Projects({ projects }: { projects: MyType.iProjects }) {
           </span>
         </h1>
 
-        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 w-full">
+        <div className="max-h-500 grid h-full w-full grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
           {projects.results.map(
             // (aProject: MyType.iProjectsResult, index: number) => (
             (aProject: MyType.iProjectsResult) => (
