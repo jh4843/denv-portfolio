@@ -85,26 +85,26 @@ export async function getStaticProps() {
 
   const projects: MyType.iProjects = await res.json()
 
-  const resultProjects: MyType.iProjectsResult[] = projects.results
+//  const resultProjects: MyType.iProjectsResult[] = projects.results
 
-  const projectIds = resultProjects.map(
-    (aProject: MyType.iProjectsResult) => aProject.id,
-  )
+  // const projectIds = resultProjects.map(
+  //   (aProject: MyType.iProjectsResult) => aProject.id,
+  // )
 
-  const projectTitles = resultProjects.map(
-    (aProject: MyType.iProjectsResult) => {
-      if (
-        aProject.properties?.Name.title == undefined ||
-        aProject.properties?.Name.title.length < 1
-      ) {
-        return ""
-      } else {
-        return aProject.properties?.Name.title[0].plain_text
-      }
-    },
-  )
+  // const projectTitles = resultProjects.map(
+  //   (aProject: MyType.iProjectsResult) => {
+  //     if (
+  //       aProject.properties?.Name.title == undefined ||
+  //       aProject.properties?.Name.title.length < 1
+  //     ) {
+  //       return ""
+  //     } else {
+  //       return aProject.properties?.Name.title[0].plain_text
+  //     }
+  //   },
+  // )
 
-  console.log(`Projects IDS: ${projectIds}\nProject Names: ${projectTitles}`)
+  // console.log(`Projects IDS: ${projectIds}\nProject Names: ${projectTitles}`)
 
   return {
     props: { projects }, // will be passed to the page component as props
