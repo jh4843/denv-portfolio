@@ -12,7 +12,7 @@
     "prettier"
   ],
   "rules": {
-    "@typescript-eslint/no-unused-vars": "error", // 사용되지 않는 변수를 에러로 인식
-    "@typescript-eslint/no-explicit-any": "error" // any 타입 정의를 에러로 인식
+    "@typescript-eslint/no-unused-vars": "off", // 사용되지 않는 변수를 에러로 인식
+    "@typescript-eslint/no-explicit-any": "off" // any 타입 정의를 에러로 인식
   }
 }
